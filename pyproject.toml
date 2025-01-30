@@ -1,0 +1,17 @@
+[project]
+name = "api-notion"
+version = "0.1.0"
+description = "Extração de dados de boards do notion usando api e consolidação dos dados no athena"
+authors = [
+    {name = "Vitor Soier",email = "vitorsoier1@gmail.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pre-commit (>=4.1.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
